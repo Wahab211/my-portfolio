@@ -1,8 +1,102 @@
-{
-	"folders": [
-		{
-			"path": "."
-		}
-	],
-	"settings": {}
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>$BUFF Token | Official Site</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com">
+</head>
+<body class="bg-slate-900 text-white font-sans antialiased">
+
+    <!-- Navigation -->
+    <nav class="flex items-center justify-between p-6 max-w-6xl mx-auto">
+        <div class="text-3xl font-black tracking-tighter text-yellow-400">$BUFF</div>
+        <div class="hidden md:flex gap-8 font-medium">
+            <a href="#about" class="hover:text-yellow-400 transition">About</a>
+            <a href="#tokenomics" class="hover:text-yellow-400 transition">Tokenomics</a>
+            <a href="whitepaper.pdf" class="hover:text-yellow-400 transition" target="_blank">Whitepaper</a>
+        </div>
+        <a href="https://pancakeswap.finance" target="_blank" class="bg-yellow-400 text-slate-900 px-6 py-2 rounded-full font-bold hover:scale-105 transition transform">Buy Now</a>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="max-w-6xl mx-auto px-6 py-20 text-center">
+        <h1 class="text-6xl md:text-8xl font-black mb-6 italic tracking-tight">GET <span class="bg-gradient-to-r from-yellow-400 to-orange-500 bg-clip-text text-transparent underline">BUFF</span></h1>
+        <p class="text-xl text-slate-400 mb-10 max-w-2xl mx-auto">The strongest community-driven token on the chain. No taxes, no nonsense. Just gains.</p>
+        
+        <!-- Contract Address Box -->
+        <div class="bg-slate-800 border border-slate-700 p-4 rounded-xl max-w-lg mx-auto flex items-center justify-between gap-4">
+            <code class="text-yellow-300 text-sm md:text-base break-all" id="ca">8B2eFjFFWiiquE3paXppwRtnswBEE8J9dU17jPfJZvJr</code>
+            <button onclick="copyCA()" class="bg-slate-700 hover:bg-slate-600 p-2 rounded-lg transition">
+                <i class="fa-regular fa-copy"></i>
+            </button>
+        </div>
+    </section>
+
+    <!-- Tokenomics -->
+    <section id="tokenomics" class="bg-slate-800/50 py-20">
+      <div class="max-w-6xl mx-auto px-6">
+        <h1 class="text-4xl font-bold text-center text-gray-300">About</h1>
+        <p class="text-sm font-semibold p-8">In a market often saturated with complexity and hidden agendas, <span class="bg-gradient-to-r from-yellow-400 to-orange-500 bg-clip-text text-transparent" >$BUFF</span> was born from a simple realization The true strength of a blockchain project lies in its community, not its complexity.
+        <div class="max-w-6xl mx-auto px-6">
+            <h2 class="text-4xl font-bold text-center mb-16">Tokenomics</h2>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="p-8 border border-slate-700 rounded-2xl text-center">
+                    <div class="text-4xl font-black text-yellow-400 mb-2">1B</div>
+                    <div class="text-slate-400 uppercase tracking-widest text-sm">Total Supply</div>
+                </div>
+                <div class="p-8 border border-slate-700 rounded-2xl text-center">
+                    <div class="text-4xl font-black text-yellow-400 mb-2">0%</div>
+                    <div class="text-slate-400 uppercase tracking-widest text-sm">Buy/Sell Tax</div>
+                </div>
+                <div class="p-8 border border-slate-700 rounded-2xl text-center">
+                    <div class="text-4xl font-black text-yellow-400 mb-2">Burned</div>
+                    <div class="text-slate-400 uppercase tracking-widest text-sm">Liquidity Pool</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Whitepaper CTA -->
+    <section class="py-20 text-center">
+        <div class="max-w-4xl mx-auto bg-gradient-to-r from-yellow-400 to-orange-500 rounded-3xl p-12 text-slate-900">
+            <h2 class="text-4xl font-black mb-4">Read the Whitepaper</h2>
+            <p class="text-lg font-medium mb-8">Deep dive into the utility and future roadmap of $BUFF.</p>
+            <a href="#" class="bg-slate-900 text-white px-10 py-4 rounded-xl font-bold text-lg hover:bg-black transition shadow-2xl inline-block">View WhitePaper</a>
+        </div>
+      <div class="flex justify-center items-center mt-12">
+        <div class="flex gap-6 justify-center">
+  <!-- Telegram Link -->
+  <a href="https://t.me" class="text-blue-400 hover:text-sky-400 transition-colors">
+    <svg class="w-8 h-8" xmlns="http://www.w3.org" viewBox="0 0 24 24" fill="currentColor">
+      <path d="M11.944 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0zM16.906 7.224c.1-.002.321.023.465.14.144.117.171.325.016.472-.18 1.898-.762 5.319-1.066 6.951-.128.692-.381.924-.628.947-.538.051-.947-.354-1.47-.695-.818-.534-1.28-.865-2.074-1.387-.92-.603-.323-.933.202-1.478.137-.142 2.52-2.311 2.566-2.503a.188.188 0 0 0-.044-.165c-.06-.051-.148-.034-.212-.02-.091.02-1.536.974-4.326 2.858-.408.281-.778.418-1.11.41-.365-.008-1.06-.206-1.579-.375-.637-.206-1.143-.316-1.099-.667.023-.183.274-.37.753-.56 2.951-1.284 4.919-2.132 5.902-2.544 2.809-1.173 3.392-1.377 3.772-1.384z"/>
+    </svg>
+  </a>
+
+  <!-- X Link -->
+  <a href="https://x.com" class="text-white-400 hover:text-white transition-colors">
+    <svg class="w-8 h-8" xmlns="http://www.w3.org" viewBox="0 0 24 24" fill="currentColor">
+      <path d="M18.901 1.153h3.68l-8.04 9.19L24 22.846h-7.406l-5.8-7.584-6.638 7.584H.474l8.6-9.83L0 1.154h7.594l5.243 6.932ZM17.61 20.644h2.039L6.486 3.24H4.298Z"/>
+    </svg>
+  </a>
+</div>
+
+    </section>
+
+    <!-- Footer -->
+    <footer class="p-10 border-t border-slate-800 text-center text-slate-500 text-sm">
+        <p>&copy; 2026 $BUFF Token. All rights reserved.</p>
+    </footer>
+
+    <script>
+        function copyCA() {
+            const ca = document.getElementById('ca').innerText;
+            navigator.clipboard.writeText(ca);
+            alert("Contract Address Copied!");
+        }
+    </script>
+</body>
+</html>
+
+  
